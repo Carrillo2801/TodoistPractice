@@ -1,0 +1,30 @@
+{
+  "name": "todoistpractice",
+  "version": "1.0.0",
+  "description": "testcafe Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe",
+    "test:edge": "testcafe edge ./tests",
+    "test:chrome": "testcafe chrome ./tests",
+    "test:edge:headless": "testcafe edge:headless ./tests",
+    "test:chrome:headless": "testcafe chrome:headless ./tests"
+  },
+  "keywords": [
+    "Testing"
+  ],
+  "author": "Jorge Carrillo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "testcafe": "^1.9.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
