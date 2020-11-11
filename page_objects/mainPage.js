@@ -7,7 +7,6 @@ class MainPage {
     this.plusAddButton = Selector('.plus_add_button')
     this.taskTextInput = Selector('.notranslate.public-DraftEditor-content')
     this.addTaskButton = Selector('.ist_button.ist_button_red')
-    this.createdTasks = Selector('.items.root_item_list li.task_list_item')
     this.taskDescription = Selector('.items.root_item_list li div div div div')
     this.cancelButton = Selector('.cancel')
     this.closeTaskCheckbox = Selector('.items.root_item_list li div button div.task_checkbox__circle')
