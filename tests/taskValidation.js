@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import startPage from '../page_objects/startPage'
 import mainPage from '../page_objects/mainPage'
 require('dotenv').config()
