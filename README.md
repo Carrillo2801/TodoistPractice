@@ -28,7 +28,7 @@ A few testing scripts are included in the package.json for right away use, you c
 - Test with Headless Chrome Browser: `npm run test:chrome:headless`
 
 # How to use?
-- Copy the .env.example, fill it with the Todoist URL and your credentials (a valid account is needed), all information provided in the .env.example should be filled as dotenv-safe was used as a dependency, if all the information is not provided an execution error will be displayed.
+- Copy the ".env.example" and save it as just ".env", fill it with the Todoist URL and your credentials (a valid account is needed), all required information provided in the .env.example should be filled as dotenv-safe was used as a dependency, if all the information is not provided an execution error will be displayed.
 - Choose and run any of the test scripts
 - (Optional) Modify the task descriptions and number of tasks for the multiple tasks scenario
 
