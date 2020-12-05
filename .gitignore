@@ -2,5 +2,5 @@
 /.eslintrc.json
 /.testcaferc.json
 /node_modules
-/reports
-/screenshots
+/tests/reports
+/tests/screenshots
