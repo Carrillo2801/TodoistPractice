@@ -3,12 +3,12 @@ import { Selector, t } from 'testcafe'
 class MainPage {
   constructor () {
     this.settingsAvatar = Selector('.user_avatar.big.settings_avatar')
-    this.logoutButton = Selector('.user_menu_label').withText('Cerrar sesión')
+    this.logoutButton = Selector('[role="menu"] button:nth-of-type(2)')
     this.plusAddButton = Selector('.plus_add_button')
     this.taskTextInput = Selector('.notranslate.public-DraftEditor-content')
-    this.addTaskButton = Selector('.ist_button.ist_button_red')
+    this.addTaskButton = Selector('.reactist_button[type="submit"]')
     this.taskDescription = Selector('.markdown_content.task_content')
-    this.cancelButton = Selector('.cancel')
+    this.cancelButton = Selector('.reactist_button[type="button"]')
     this.closeTaskCheckbox = Selector('.task_checkbox__circle')
   }
 
