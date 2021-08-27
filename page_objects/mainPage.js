@@ -8,7 +8,7 @@ class MainPage {
     this.taskTextInput = Selector('.notranslate.public-DraftEditor-content')
     this.addTaskButton = Selector('.reactist_button[type="submit"]')
     this.taskDescription = Selector('.markdown_content.task_content')
-    this.cancelButton = Selector('.reactist_button[type="button"]')
+    this.cancelButton = Selector('.reactist_button--secondary')
     this.closeTaskCheckbox = Selector('.task_checkbox__circle')
   }
 
